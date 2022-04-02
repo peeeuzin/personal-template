@@ -1,6 +1,11 @@
 # My personal template
 Hi! This repo is my personal node template.
 
+# How to install
+```
+npm install -g @pedrinfx/template
+```
+
 # How to use
 Start with the following command:
 ```
