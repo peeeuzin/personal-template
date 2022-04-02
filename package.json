@@ -2,10 +2,16 @@
     "name": "@pedrinfx/template",
     "version": "1.0.0",
     "main": "index.js",
-    "license": "MIT",
     "scripts": {
         "start": "ts-node src/index.ts",
         "build": "tsc --build && shx rm -rf dist/templates && shx cp -r src/templates dist"
+    },
+    "author": {
+        "name": "Pedro Augusto",
+        "email": "contato.pedrinfx@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/pedrinfx/personal-template"
     },
     "devDependencies": {
         "@types/ejs": "^3.1.0",
